@@ -1,5 +1,7 @@
 package com.erikrmb.apiErikRMB.domain.consulta;
 
+import com.erikrmb.apiErikRMB.domain.medico.Especialidade;
+
 import java.time.LocalDateTime;
 
 public record DadosDetalhamentoConsulta(

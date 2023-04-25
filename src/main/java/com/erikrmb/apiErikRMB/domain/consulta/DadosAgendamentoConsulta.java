@@ -7,7 +7,6 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 public record DadosAgendamentoConsulta(
-        Long id,
         @NotNull
         Long idPaciente,
 
